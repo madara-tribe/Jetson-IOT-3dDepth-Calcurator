@@ -4,7 +4,7 @@ Use onnx yolov4-tiny to calcurate 3d depth distance with camera on jetson.
 It estimate distances as car driving camera depth estimate system or rifle scope supporter.
 
 It estimate for objects like truch, car and person
-Its situation is limited on ```(1216, 1936)``` screen. this depth calcurator can be used on the limited use. 
+Its situation is limited on ```(1216, 1936)``` screen. this depth calcurator can be used on the limited environment. 
 
 
 Sample driving movie
