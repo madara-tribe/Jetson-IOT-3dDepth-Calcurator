@@ -31,6 +31,8 @@ $ (/opt/anaconda3/bin/python3) python3 camera_estimation.py yolov4_1_3_416_416_s
 ## sample driving video and gif
 <b>Video</b>
 
+https://user-images.githubusercontent.com/48679574/126367838-ccab8a22-9741-4ffc-a8dd-fa60a179f54b.mp4
+
 
 <b>GIF</b>
 
