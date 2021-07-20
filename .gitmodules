@@ -1,0 +1,3 @@
+[submodule "yolov4_3_416_416.onnx"]
+	path = yolov4_3_416_416.onnx
+	url = https://github.com/madara-tribe/onnxed-torch-Yolov4
