@@ -28,10 +28,12 @@ $ (/opt/anaconda3/bin/python3) python3 camera_estimation.py yolov4_1_3_416_416_s
 <img src="https://user-images.githubusercontent.com/48679574/126335148-931e66df-6fe9-4a39-9879-b0c56c2f191e.png" width="600px"><img src="https://user-images.githubusercontent.com/48679574/126335157-7156a2b0-8814-4420-8eb0-ae4ac5eea78e.png" width="600px">
 
 
-## sample driving video
-https://user-images.githubusercontent.com/48679574/126075780-1189181a-0751-47e7-906f-69c62acdef85.mov
+## sample driving video and gif
+<b>Video</b>
 
-![sample](https://user-images.githubusercontent.com/48679574/126086372-22c6e710-f645-40a4-91f3-c9728337393c.gif)
+
+<b>GIF</b>
+![sample_driving](https://user-images.githubusercontent.com/48679574/126336114-1898dbd1-8208-4589-84cf-e54cae497051.gif)
 
 
 # References
