@@ -36,8 +36,7 @@ https://user-images.githubusercontent.com/48679574/126367838-ccab8a22-9741-4ffc-
 
 <b>GIF</b>
 
-![sample_driving](https://user-images.githubusercontent.com/48679574/126336114-1898dbd1-8208-4589-84cf-e54cae497051.gif)
-
+![sample_driving](https://user-images.githubusercontent.com/48679574/126509431-ed5e0c31-c959-4771-a91d-b49567a0cd0d.gif)
 
 # References
 - [yolov2-and-distance-estimation](https://github.com/muhammadshiraz/Real-time-object-detection-using-yolov2-and-distance-estimation)
