@@ -1,4 +1,4 @@
-# Jetson-Realtime-3dDepth-Calcurator
+# Jetson-IOT-3dDepth-Calcurator
 
 Use onnx yolov4-tiny to calcurate 3d depth distance with camera on jetson.
 It estimate distances as car driving camera depth estimate system or rifle scope supporter.
