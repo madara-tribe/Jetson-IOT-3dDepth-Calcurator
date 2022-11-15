@@ -6,7 +6,10 @@ It estimate distances as car driving camera depth estimate system.
 It estimate for objects like truch, car and person.
 
 Use oriinal formula to calcurate 3d depth distance. 
-So, capture image size are limited ```(1216, 1936)``` screen. this depth calcurator can be used in the limited environment. 
+
+So, capture image size are limited ```(1216, 1936)``` screen. 
+
+this depth calcurator can be used in the limited environment. 
 
 
 Sample driving movie
