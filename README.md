@@ -1,10 +1,12 @@
 # Jetson-IOT-3dDepth-Calcurator
 
-Use onnx yolov4-tiny to calcurate 3d depth distance with camera on jetson.
-It estimate distances as car driving camera depth estimate system or rifle scope supporter.
+Use onnx yolov4-tiny to calcurate 3d depth distance with camera on jetson or Qt6.
+It estimate distances as car driving camera depth estimate system.
 
-It estimate for objects like truch, car and person
-Its situation is limited on ```(1216, 1936)``` screen. this depth calcurator can be used on the limited environment. 
+It estimate for objects like truch, car and person.
+
+Use oriinal formula to calcurate 3d depth distance. 
+So, capture image size are limited ```(1216, 1936)``` screen. this depth calcurator can be used in the limited environment. 
 
 
 Sample driving movie
@@ -13,14 +15,16 @@ Sample driving movie
 
 # inference command 
 
+## PyQt6 
 ```zsh
-# image inference
-$ (/opt/anaconda3/bin/python3) python3 onnx_inference.py yolov4_1_3_416_416_static.onnx images/train_2007.jpg
+$ python3 main.py --qtapp
+```
 
+## inference for Single image
 
-# camera inference
-$ (/opt/anaconda3/bin/python3) python3 camera_estimation.py yolov4_1_3_416_416_static.onnx
-
+## camera inference
+```zsh
+$ python3 main.py --camera
 ```
 
 # current result
