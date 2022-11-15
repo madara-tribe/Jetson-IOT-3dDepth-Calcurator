@@ -19,20 +19,22 @@ Sample driving movie
 ```zsh
 $ python3 main.py --qtapp
 ```
+<img src="https://user-images.githubusercontent.com/48679574/201970185-96b37e46-b9c5-4d5b-a482-be083cd2498c.png" width="400px">
+
+
 
 ## inference for Single image
+```zsh
+$ python3 main.py --inference
+```
+<img src="https://user-images.githubusercontent.com/48679574/126508415-888986c2-c81d-4e29-9432-bf71f84304c0.png" width="300px"><img src="https://user-images.githubusercontent.com/48679574/126508452-2b94da56-ee12-4c20-91f8-36a2b5f3b840.png" width="300px">
+
 
 ## camera inference
 ```zsh
 $ python3 main.py --camera
 ```
 
-# current result
-
-<img src="https://user-images.githubusercontent.com/48679574/126508415-888986c2-c81d-4e29-9432-bf71f84304c0.png" width="600px"><img src="https://user-images.githubusercontent.com/48679574/126508452-2b94da56-ee12-4c20-91f8-36a2b5f3b840.png" width="600px">
-
-
-## sample driving video and gif
 <b>Video</b>
 
 https://user-images.githubusercontent.com/48679574/126510617-03ef8cac-eed5-414c-aad2-62cc69457dd7.mp4
@@ -40,7 +42,7 @@ https://user-images.githubusercontent.com/48679574/126510617-03ef8cac-eed5-414c-
 
 <b>GIF</b>
 
-![sample_driving](https://user-images.githubusercontent.com/48679574/126509431-ed5e0c31-c959-4771-a91d-b49567a0cd0d.gif)
+<img src="https://user-images.githubusercontent.com/48679574/126509431-ed5e0c31-c959-4771-a91d-b49567a0cd0d.gif" width="600px">
 
 # References
 - [yolov2-and-distance-estimation](https://github.com/muhammadshiraz/Real-time-object-detection-using-yolov2-and-distance-estimation)
