@@ -80,7 +80,7 @@ def main(opt):
         w.resize(opt.width, opt.height)
         w.show()
         sys.exit(app.exec_())
-    if opt.inference:
+    elif opt.inference:
         image_main(opt.onnx_path, opt.image_path)
     elif opt.camera:
         run_camera(onnx_path=opt.onnx_path, video_path=opt.right_video_path)
