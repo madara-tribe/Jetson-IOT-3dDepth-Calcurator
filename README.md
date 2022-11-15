@@ -19,7 +19,7 @@ Sample driving movie
 ```zsh
 $ python3 main.py --qtapp
 ```
-<img src="https://user-images.githubusercontent.com/48679574/201970185-96b37e46-b9c5-4d5b-a482-be083cd2498c.png" width="400px">
+<img src="https://user-images.githubusercontent.com/48679574/201970185-96b37e46-b9c5-4d5b-a482-be083cd2498c.png" width="600px">
 
 
 
@@ -27,7 +27,7 @@ $ python3 main.py --qtapp
 ```zsh
 $ python3 main.py --inference
 ```
-<img src="https://user-images.githubusercontent.com/48679574/126508415-888986c2-c81d-4e29-9432-bf71f84304c0.png" width="300px"><img src="https://user-images.githubusercontent.com/48679574/126508452-2b94da56-ee12-4c20-91f8-36a2b5f3b840.png" width="300px">
+<img src="https://user-images.githubusercontent.com/48679574/126508415-888986c2-c81d-4e29-9432-bf71f84304c0.png" width="500px"><img src="https://user-images.githubusercontent.com/48679574/126508452-2b94da56-ee12-4c20-91f8-36a2b5f3b840.png" width="500px">
 
 
 ## camera inference
