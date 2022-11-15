@@ -1,14 +1,10 @@
-import sys
-import onnx
-import os
-import argparse
 import numpy as np
 import cv2
-import onnxruntime
 import time
 import math
-from utils.utils import nms_cpu, load_class_names, post_processing
-from utils.depth_calculator import perspective_dist_calculator
+import onnxruntime
+from depth_utils.utils import nms_cpu, load_class_names, post_processing
+from depth_utils.depth_calculator import perspective_dist_calculator
 
 
 
@@ -106,11 +102,11 @@ def detect(session, image_src, movie=True):
 
     num_classes = 80
     if num_classes == 20:
-        namesfile = 'src/voc.names'
+        namesfile = 'depth_utils/cfg/voc.names'
     elif num_classes == 80:
-        namesfile = 'src/coco.names'
+        namesfile = 'depth_utils/cfg/coco.names'
     else:
-        namesfile = 'src/x.names'
+        namesfile = 'depth_utils/cfg/x.names'
 
     class_names = load_class_names(namesfile)
     if movie:
@@ -118,12 +114,3 @@ def detect(session, image_src, movie=True):
     else:
         img = plot_boxes_cv2(image_src, boxes[0], savename='pred_img.png', class_names=class_names)
     return img
-
-if __name__ == '__main__':
-    print("Converting to onnx and running demo ...")
-    onnx_file_path = sys.argv[1]
-    image_path = sys.argv[2]
-    image_main(onnx_file_path, image_path)
-  
-    print('Please run this way:\n')
-    print('python demo_onnx.py <onnxweightFile> <imageFile>')

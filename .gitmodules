@@ -1,3 +1,0 @@
-[submodule "yolov4_1_3_416_416_static.onnx"]
-	path = yolov4_1_3_416_416_static.onnx
-	url = https://github.com/madara-tribe/base-body-Yolov4
