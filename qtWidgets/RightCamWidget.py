@@ -3,9 +3,9 @@ sys.path.append("../")
 import cv2, os
 import numpy as np
 import time
-from PySide6.QtWidgets import *
-from PySide6.QtCore import *
-from PySide6.QtGui import *
+from PySide6.QtWidgets import QWidget, QLabel, QVBoxLayout, QHBoxLayout
+from PySide6.QtCore import QSize, QTimer
+from PySide6.QtGui import QImage, QPixmap
 
 from onnx_inference import image_main, movie_main
 
