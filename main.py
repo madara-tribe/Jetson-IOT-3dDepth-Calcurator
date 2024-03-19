@@ -1,8 +1,7 @@
 import argparse
 import sys, os
-from PySide6.QtCore import *
-from PySide6.QtGui import *
-from PySide6.QtWidgets import *
+from PySide6.QtGui import Qt
+from PySide6.QtWidgets import QMainWindow, QApplication, QVBoxLayout, QDockWidget
 from qtWidgets.RightCamWidget import RightCamWidget
 from qtWidgets.LeftWidget import LeftWidget
 from onnx_inference import image_main, movie_main
