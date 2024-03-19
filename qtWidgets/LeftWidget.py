@@ -1,6 +1,6 @@
-from PySide6.QtCore import *
-from PySide6.QtGui import *
-from PySide6.QtWidgets import *
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QGraphicsView, QLabel, QSizePolicy, QSpacerItem
+from PySide6.QtCore import QSize, QTimer
+from PySide6.QtGui import QImage, QPixmap
 import time
 import os, sys, cv2
 import numpy as np
